@@ -64,7 +64,7 @@ make_mask(uint32_t size)
   uint32_t mmask = 0;
   for(int i=0;i<size;i++)
   {
-    mmask = mmask | 1<<i;
+    
   }
   return mmask;
 }
